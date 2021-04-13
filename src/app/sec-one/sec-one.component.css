@@ -1,0 +1,59 @@
+.rectangleOne{
+    display: flex;
+    width: 100%;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    left: 0;
+    object-fit: contain;
+    background-color: #ffffff;
+    z-index: 1;
+    justify-content: space-between;
+    /*border: 2px solid red;*/
+  }
+
+  .image1{
+    width: 100%;
+    height: 120%;
+  }
+
+  .box1{
+    background-color: #ffffff;
+    color: #102347;
+    font-weight: bold;
+    position: absolute;
+    height: 80px;
+    margin-top: 560px;
+  
+    padding: 15px;
+    margin-left: 134px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 126px 108px;
+    width: 43%;
+    opacity: 77%;
+    border-right: 10px solid #DC487B;
+   
+  }
+
+  .text2{
+    font-size: 10px;
+  }
+  .text3{
+    font-size: 10px;
+    color: #DC487B;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+
+.box1{
+  margin-top: 76px;
+  padding: 17px;
+  margin-left: 0px;
+  height: 83px;
+  width: 348px;
+}
+}
+  

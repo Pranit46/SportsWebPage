@@ -1,0 +1,124 @@
+.rectangThree{
+    background-color: #F1F0F5;
+    height: 323px;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+    margin-top: 73px;
+    
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 90px;
+  }
+
+  .t4{
+      margin-top: 10px;
+      padding-top: 38px;
+      margin-left: 130px;
+      color: #19295F;
+  }
+
+  .lowBox1{
+      /*border: 2px solid red;*/
+      width: 75%;
+  }
+
+  .lowBox2{
+   /* border: 2px solid red;*/
+    margin-top: -232px;
+    margin-left: 1130px;
+    height: 251px;
+    width: 367px;
+    background: -webkit-linear-gradient( -45deg,#CD6A41,#B32E70);
+}
+
+.lowBox3{
+    position: absolute;
+    margin-top: -252px;
+    margin-left: 1130px;
+    height: 253px;
+    width: 372px;
+    background: -webkit-linear-gradient( -45deg,#CD6A41,#B32E70);
+    opacity: 0.8;
+   
+    
+}
+  
+.ImgCM{
+    width: 366px;
+    height: 252px;
+    z-index: -1;
+}
+
+.lastRow{
+    background-color: #120E41;
+    color: #ffff;
+    height: 65px;
+}
+.TextLeft{
+    float: left;
+    margin-top: 24px;
+    margin-left: 126px;
+}
+.TextRight{
+    float: right;
+    margin-top: 24px;
+    margin-right: 200px;
+}
+.lowImg{
+    float: right;
+    margin-right: -250px;
+    height: 58px;
+}
+.lowBox4{
+    height: 0;
+    width: 0;
+    border-left: 303px solid #F1F0F5;
+    border-top: 251px solid transparent;
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .rectangThree{
+      display: flex;
+      flex-direction: column;
+      margin-top: 272px;
+    }
+
+    .TextLeft{
+        margin-left: 77px;
+    margin-top: 1px;
+    }
+
+    .lowImg{
+        float: right;
+        margin-right: -192px;
+        height: 42px;
+        margin-top: 3px;
+    }
+    .grid-container{
+        grid-template-columns: 100px 100px;
+        margin-left: -97px;
+        margin-top: 0px;
+        grid-column-gap: 38px;
+    }
+   
+    .t4{
+        margin-left: 23px;
+        margin-top: -277px;
+    }
+    .lowBox4{
+        display: none;
+    }
+   
+}
